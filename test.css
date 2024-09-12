@@ -1,0 +1,35 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background: rgb(38, 194, 237);
+            background-repeat:no-repeat;
+            background-position:center;
+            height:100vh;
+        }
+        h1{
+            font-family:'Times New Roman', Times, serif;
+            text-align: center;
+            padding: 2rem;
+            Color: rgb(1, 105, 27)
+        }
+        .container{
+            display: flex;
+            gap: 1rem;
+            justify-content: Center;
+            width: 100px;
+            margin:5rem auto 0 auto;
+            flex-wrap: wrap;
+        }
+        .container img{
+            width: 1000px;
+            aspect-ratio: 16/9;
+            box-shadow: rgb(132, 103, 28);
+        }
+        @media(max-width:572px){
+            body{height: 100%;
+            }
+        }
